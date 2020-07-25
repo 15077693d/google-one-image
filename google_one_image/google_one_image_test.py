@@ -1,5 +1,5 @@
 import unittest
-from google_one_image import *
+from google_one_image.Google_One_Image import get_image
 class google_one_image_test(unittest.TestCase):
     def test_01_get_image(self):
         expect = get_image("鴨脷洲橋道遊樂場 足球場")

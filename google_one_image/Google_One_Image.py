@@ -2,7 +2,7 @@ from selenium import webdriver
 def get_image(item):
     option = webdriver.ChromeOptions()
     option.add_argument('--headless')
-    driver = webdriver.Chrome(executable_path="./chromedriver",options=option)
+    driver = webdriver.Chrome(executable_path="./chromedriver", options=option)
     if type(item)==type([]):
         images = []
         for keyword in item:
