@@ -8,6 +8,8 @@ setup(
     author_email='oscaryiu.lapsang@gmail.com',
     # Needed to actually package something
     packages=['google_one_image'],
+    package_dir={'google_one_image': 'google_one_image'},
+    package_data={'google_one_image': ['google_one_image/*']},
     # Needed for dependencies
     install_requires=['selenium'],
     # *strongly* suggested for sharing
